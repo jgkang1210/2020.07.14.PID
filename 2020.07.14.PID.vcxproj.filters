@@ -15,8 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="original.cpp">
+    <ClCompile Include="constant_time_version.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="graph.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="graph.csv">
+      <Filter>리소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

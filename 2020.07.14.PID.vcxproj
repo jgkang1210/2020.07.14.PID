@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="original.cpp" />
+    <ClCompile Include="constant_time_version.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="graph.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="graph.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
